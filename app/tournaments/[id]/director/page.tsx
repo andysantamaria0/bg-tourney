@@ -535,7 +535,7 @@ export default function DirectorDashboardPage() {
 
           {/* Sidebar */}
           <div className="space-y-6">
-            <ScoreReportQueue />
+            <ScoreReportQueue tournamentId={tournamentId} onScoreApproved={loadData} />
           </div>
         </div>
 
